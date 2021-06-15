@@ -1,14 +1,7 @@
 $(document).ready(function() {
-
-
-  let child = $(this).children();
-  console.log(child);
-
-
-
   let counter = 0;
-  $('#tweet-text').on('keydown', function() {
-    let child = $(this).filter(".counter");
+  $('#tweet-text').on('keypress', function() {
+    let child = $("output").filter(".counter");
 
     counter++;
     if (counter > 140) {

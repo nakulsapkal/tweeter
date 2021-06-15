@@ -25,14 +25,14 @@ form {
     justify-content: space-between;
 }
 
-.text-label {
+
+/* .text-label {
     position: relative;
-}
+} */
 
 label {
     size: 30px;
     color: rgb(37, 35, 35);
-    position: absolute;
 }
 
 #tweet-text {
