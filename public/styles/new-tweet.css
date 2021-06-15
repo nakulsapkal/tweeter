@@ -45,3 +45,7 @@ label {
     background-color: lightskyblue;
     outline: none;
 }
+
+.counter-exceded {
+    color: red;
+}
