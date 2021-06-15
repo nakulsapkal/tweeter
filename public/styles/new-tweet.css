@@ -1,0 +1,36 @@
+.form-button {
+    color: white;
+    background-color: #4056A1;
+    font-size: 24px;
+    font-family: 'Bungee', cursive;
+}
+
+form {
+    width: 110%;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.button-counter {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    color: rgb(37, 35, 35);
+}
+
+#tweet-text {
+    width: 100%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom: 2px solid black;
+    background-color: lightskyblue;
+    outline: none;
+}
