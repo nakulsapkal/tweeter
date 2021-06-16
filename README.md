@@ -17,7 +17,7 @@ This repository is the starter code for the project: Students will fork and clon
 - Node 5.10.x or above
 
 
-Bugs:
+Known Bugs:
 
 the char counter when depleted then color doesn't change back to normal
 also the counting is bit bugged for first backkey press.
