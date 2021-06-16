@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   $(".tweet-container").hover(function() {
     $(this).addClass("tweet-container-shadow");
   }, function() {
