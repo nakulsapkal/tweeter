@@ -48,6 +48,9 @@
     <!-- App JS All Tweets timeago-->
     <script type="text/javascript" src="./scripts/alltweets-timeago.js"></script>
 
+    <!-- App JS Tweets Submission Via Submit-->
+    <script type="text/javascript" src="./scripts/form-submission.js"></script>
+
     <!-- App JS fontawesome icons-->
     <script src="https://kit.fontawesome.com/a013a58656.js" crossorigin="anonymous"></script>
 
@@ -73,7 +76,7 @@
     <main id="mainpage" class="container">
         <section class="new-tweet">
             <h2>Compose Tweet</h2>
-            <form method="POST" action="/tweets">
+            <form id="form" method="POST" action="/tweets">
                 <div class="text-label">
                     <label for="tweet-text">What are you humming about?</label>
                     <textarea name="text" id="tweet-text"></textarea>
