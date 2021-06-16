@@ -1,5 +1,7 @@
 .tweet-container {
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     border-style: solid;
     border-color: black;
     display: flex;
@@ -48,4 +50,13 @@ article {
     color: blue;
     font-size: 15px;
     padding-right: 5px;
+}
+
+.tweet-container-shadow {
+    size: 110%;
+    box-shadow: 5px 5px 0px 1px #6b6969;
+}
+
+.tweet-icons-shadow {
+    color: orange;
 }
