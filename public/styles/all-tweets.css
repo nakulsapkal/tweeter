@@ -8,7 +8,7 @@
 
 .tweet-details {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border-top: solid;
     border-color: black;
     padding: 1em;
@@ -36,20 +36,16 @@ article {
     height: 70px;
 }
 
-.tweet-header name {
+.tweet-names {
+    width: 100%;
     padding-left: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.tweet-header username {
-    padding-left: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-i {
+.tweet-icons {
     color: blue;
-    font-size: 10px;
+    font-size: 15px;
+    padding-right: 5px;
 }

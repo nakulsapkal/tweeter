@@ -1,8 +1,6 @@
 .form-button {
     color: white;
     background-color: #4056A1;
-    font-size: 24px;
-    font-family: 'Bungee', cursive;
 }
 
 form {
@@ -23,6 +21,8 @@ form {
     padding-top: 5px;
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Bungee', cursive;
 }
 
 label {
@@ -43,4 +43,6 @@ label {
 
 .counter-exceded {
     color: red;
+    font-size: 24px;
+    font-family: 'Bungee', cursive;
 }

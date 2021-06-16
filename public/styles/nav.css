@@ -24,7 +24,8 @@ nav {
     align-items: center;
 }
 
-i {
+.fa-angle-double-down {
+    display: flex;
     color: red;
     font-size: 20px;
 }
