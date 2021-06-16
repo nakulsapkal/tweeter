@@ -1,8 +1,4 @@
 $(document).ready(function() {
-
-  console.log(timeago.format(new Date()));
-  console.log(timeago.format('2016-09-07', 'zh_CN'));
-
   $(".tweet-container").hover(function() {
     $(this).addClass("tweet-container-shadow");
   }, function() {
