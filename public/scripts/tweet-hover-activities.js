@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
-  $(".tweet-container").hover(function() {
-    $(this).addClass("tweet-container-shadow");
+  $(".tweet").hover(function() {
+    $(this).addClass("tweet-shadow");
   }, function() {
-    $(this).removeClass("tweet-container-shadow");
-    $(this).off(".tweet-container", function() {}, function() {});
+    $(this).removeClass("tweet-shadow");
+    $(this).off(".tweet", function() {}, function() {});
   })
 
   $(".fa-flag").hover(function() {
