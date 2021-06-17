@@ -21,3 +21,9 @@ Known Bugs:
 
 the char counter when depleted then color doesn't change back to normal
 also the counting is bit bugged for first backkey press.
+
+
+passing the ajax function  hardcoded urla and method
+
+
+nanananakakakjsjsjdhdhdhfgfgfgyayayhahahisisiododoklfkfkkakajjajajhshshjdjdjkkgkjfjfjhdhdhgsgsgfafafgdgsggsgsgsgsgssgsggsgsgsgsgssggsgsgsgs
