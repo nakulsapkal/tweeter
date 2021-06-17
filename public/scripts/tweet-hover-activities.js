@@ -1,5 +1,4 @@
-$(document).ready(function() {
-
+const hoverElement=function(){
   $(".tweet").hover(function() {
     $(this).addClass("tweet-shadow");
   }, function() {
@@ -27,6 +26,4 @@ $(document).ready(function() {
     $(this).removeClass("tweet-icons-shadow");
     $(this).off("fa-heart");
   });
-
-
-});
+};
