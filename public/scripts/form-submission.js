@@ -2,15 +2,15 @@ $(document).ready(function() {
   $("#form").submit(function(event) {
     event.preventDefault();
     dataString = $(this).serialize();
-    //dataString = jQuery.param($(this));
 
-    console.log(dataString);
-
+    //form Validation for char count
     if (dataString.length > 145) {
-      alert('Tweet content is too long shoudl be 140 chars or less!');
+      $('error').html(`<i class="fas fa-exclamation-triangle"></i> Too long, Please respect our arbitrary limit of 140 chars. <i class="fas fa-exclamation-triangle"></i>`); //populating the error with icons
+      $('error').addClass("tweet-error"); //added class to style error
       return false;
     } else if (dataString.length === 5) {
-      alert('Tweet content is empty!');
+      $('error').html(`<i class="fas fa-exclamation-triangle"></i> Opps you forgot to write what are you humming about?! <i class="fas fa-exclamation-triangle"></i>`); //populating the error with icons
+      $('error').addClass("tweet-error"); //added class to style error
       return false;
     }
 
@@ -23,8 +23,8 @@ $(document).ready(function() {
 
     $.ajax(params)
       .then((res) => {
-        loadtweets();
-        $('#tweet-text').val("");
+        loadtweets(); //loading the tweets data again with the latest tweet in it
+        $('#tweet-text').val(""); //clearing the text area in form
       })
       .catch((err) => {
         console.log(`error from ajax get: ${err}`)
