@@ -12,6 +12,22 @@ header {
     flex-direction: column;
 }
 
+#name {
+    width: 7em;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+#name text {
+    padding-left: 0.2em;
+    padding-top: 0.2em;
+    font-size: 32px;
+    color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
 img {
     height: 170px;
 }

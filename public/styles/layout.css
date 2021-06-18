@@ -32,6 +32,27 @@ body {
  */
 
 .container {
+    margin-top: 3em;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+
+/* Another tablet breakpoint is minimum width of 768px */
+
+@media only screen and (min-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+    #mainpage {
+        width: 90em;
+        margin-top: 9.5em;
+    }
+    #header {
+        height: 17.5em;
+        margin-right: 2em;
+        margin-left: 2em;
+        margin-top: 9.5em;
+    }
 }
