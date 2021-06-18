@@ -1,3 +1,4 @@
+//In this file character calculation is done
 $(document).ready(function() {
   $('#tweet-text').on('input', function(event) {
     let maxLength = 140;

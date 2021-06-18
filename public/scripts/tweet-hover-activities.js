@@ -1,4 +1,5 @@
-const hoverElement=function(){
+//Function add hover state to elements
+const hoverElement = function() {
   $(".tweet").hover(function() {
     $(this).addClass("tweet-shadow");
   }, function() {

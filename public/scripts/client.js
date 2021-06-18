@@ -34,25 +34,22 @@ const createTweetElement = function(obj) {
   return article;
 }
 
-
+//Function appends newly created tweet to the HTML
 const renderTweets = function(tweets) {
-  // loops through tweets
-  // calls createTweetElement for each tweet
-  // takes return value and appends it to the tweets container
   for (const tweetObj of tweets) {
-    $('#tweets-container').prepend(createTweetElement(tweetObj)) // to add it to the page so we can make sure it's got all the right elements, classes, etc.
+    $('#tweets-container').prepend(createTweetElement(tweetObj))
   }
 }
 
 
 const loadtweets = function() {
-  //get call of Jquery data for provided url.
+  //call of Jquery data for provided url.
   $.get("http://localhost:8080/tweets", function(data) {
     renderTweets(data);
 
-    hoverElement();
+    hoverElement(); //Hover effect to elements
 
-    timeagoCalculator();
+    timeagoCalculator(); //assigns timeago script to every tweet 
 
   });
 
