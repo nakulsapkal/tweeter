@@ -18,12 +18,6 @@ This repository is the starter code for the project: Students will fork and clon
 
 
 Known Bugs:
+timeago is not setting proper time
 
-the char counter when depleted then color doesn't change back to normal
-also the counting is bit bugged for first backkey press.
-
-
-passing the ajax function  hardcoded urla and method
-
-
-nanananakakakjsjsjdhdhdhfgfgfgyayayhahahisisiododoklfkfkkakajjajajhshshjdjdjkkgkjfjfjhdhdhgsgsgfafafgdgsggsgsgsgsgssgsggsgsgsgsgssggsgsgsgs
+also the long char list not being wrapped

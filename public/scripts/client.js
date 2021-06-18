@@ -9,7 +9,7 @@ const createTweetElement = function(obj) {
   const img = obj.user.avatars;
   const tweetName = obj.user.name;
   const tweetHandle = obj.user.handle;
-  const tweetText = obj.content.text;
+  const tweetText = escape(obj.content.text); //escapes the special chars
   const tweetDateTime = obj.created_at;
 
   const article = `<article class="tweet">
@@ -57,6 +57,15 @@ const loadtweets = function() {
   });
 
 }
+
+
+//Cross-Site Scripting function
+const escape = function(str) {
+  let div = document.createElement("div");
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
+};
+
 
 //calling to load the tweets from URL
 loadtweets();
